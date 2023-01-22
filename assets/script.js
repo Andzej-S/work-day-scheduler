@@ -1,4 +1,6 @@
-// The app should:
+const currentDate = moment().format('dddd, MMMM Do');
+$('#currentDay').text(currentDate);
+
 
 // * Display the current day at the top of the calender when a user opens the planner.
  
